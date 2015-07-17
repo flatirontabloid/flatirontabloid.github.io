@@ -2,14 +2,13 @@
 .container {
   width:100%;
   margin: 0 auto;
-  text-align: center;
 }
 
 #storytitle1{
   font-family: Poiret One;
 }
 
-#storytitle2 #div4{
+.m #storytitle2 #div4 h2{
   font-family: Poiret One;
 }
 
@@ -71,19 +70,23 @@
   
 }
 #div5{
-  width: 70%;
+  width: 80%;
   float: left;
+  text-align: center;
     
   
 }
-#d5{
-width: 100%;
+
+
+
+#d5 { 
+  width: 100%;
   margin-left: 2%;
   background: #d3d3d3;
   overflow: hidden;
   border-radius: 10px;
   margin: 2%;
-
+ text-align:right;
 }
 
 #d5 #div5 p {
@@ -92,9 +95,10 @@ width: 100%;
 }
 
 #ayaan {
-  width: 10%;
+  width: 20%;
   float: right;
-  display: block;
+  display: inline-block;
+  position: relative;
 }
 
 
@@ -115,6 +119,9 @@ width: 100%;
 background-color: grey;  
   height: auto;
   overflow: hidden;
+  border-radius: 10px;
+  margin-left: 2%;
+  
 }
 
 #pic
@@ -145,4 +152,11 @@ background-color: grey;
      }
 ul li{
   font-family: 'Francois One';
+}
+h2{
+  font-family: Poiret One;
+}
+
+#storytitle2{
+  margin-top: -2.5%;
 }
