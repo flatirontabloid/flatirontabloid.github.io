@@ -1,0 +1,112 @@
+@import url(http://fonts.googleapis.com/css?family=Poiret+One|Francois+One);
+.buttons{
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+.buttons ul li{
+  list-style: none;
+  display: inline-block;
+  width: 10%;
+}
+.buttons ul li:nth-child(3){
+  width: 25%;
+}
+.buttons ul li:nth-child(1), .buttons ul li:nth-child(2){
+  margin-right: -3%;
+}
+.buttons ul li:nth-child(4), .buttons ul li:nth-child(5){
+  margin-left: -3%;
+}
+.buttons ul li a img{
+  width: 50%;
+}
+div.intro{
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 10%; 
+  background-color: #C1C1C1; 
+  padding: 2% 4%;
+  text-align: justify;
+}
+
+div.intro p{
+    font-family: "Francois One";
+  text-align: center;
+}
+
+div.images{
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+#ft{
+  margin-bottom: -8%;
+  font-size: 4em;
+  font-weight: bold;
+}
+/* #logo{
+  width: 25%;
+  height: 25%;
+} */
+
+
+/* stuff I added */
+#flat img{
+  border: none;
+  width: 40%;
+  margin: auto;
+}
+
+#flat{
+  width: 10%;
+}
+
+div.buttons{
+  background-color: #C1C1C1;
+  top: 0;
+  position: absolute;
+  height: 75px;
+  padding-bottom: 6px;
+  width: 100%;
+  margin-left: -10px;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+
+.bumpup{
+  top: -20px;
+  position: relative;
+  text-decoration: none;
+  color: black;
+}
+
+ul.index li {
+  display: inline-block;
+  width: 24%;
+  list-style-type: none;
+  text-align: center;
+  font-family: Francois One;
+  margin-bottom: 1%;
+}
+
+#celeb ul li img{
+  width: 81%;
+}
+#mains ul li img{
+  width: 90%;
+  margin-top: -12%;
+}
+
+#gossip{
+  margin-left: -2%;
+}
+
